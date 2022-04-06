@@ -1,0 +1,32 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading{
+  background-image: url("chapter7_exercise/chapter7_exercise/img/mv.jpg");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.heading-text{
+  padding: 20px;
+}
+
+main{
+  width: 840px;
+  margin: 50px auto;
+}
+
+.main-contents{
+  border-bottom: 1px solid grey;
+  padding-bottom: 30px;
+}
+
+.wcp,.wcw,.wcc{
+  padding-top: 30px;
+}
